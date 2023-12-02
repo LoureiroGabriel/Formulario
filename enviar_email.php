@@ -18,8 +18,8 @@ try {
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'gabrielloureirobley@gmail.com';                     
-    $mail->Password   = 'pwsutlofszpwgvim';                               
+    $mail->Username   = '***';                     
+    $mail->Password   = '***';                               
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            
     $mail->Port       = 587;                                    
 
